@@ -1,7 +1,7 @@
 {
-	"name": "neobrutalism-svelte",
-	"private": true,
-	"version": "0.0.1",
+	"name": "neobrutalism-components-svelte",
+	"private": false,
+	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -24,6 +24,19 @@
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
+		"@sveltejs/package": "^2.3.11",
 		"@tailwindcss/vite": "^4.1.4"
+	},
+	"peerDependencies": {
+		"svelte": "^5.0.0"
+	},
+	"files": [
+		"dist"
+	],
+	"exports":{
+		".": {
+			"types" : "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		}
 	}
 }

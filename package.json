@@ -1,13 +1,8 @@
 {
-	"name": "neobrutalism-components-svelte",
+	"name": "neobrutalism-svelte",
 	"private": true,
-	"license": "MIT",
-	"version": "0.1.0",
+	"version": "0.0.1",
 	"type": "module",
-	"files": [
-		"dist",
-		"src/lib"
-	],
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -21,27 +16,14 @@
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"cva": "npm:class-variance-authority@^0.7.1",
-		"svelte": "^5.28.2",
+		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"tailwind-merge": "^3.2.0",
 		"tailwindcss": "^4.1.4",
-		"tsup": "^8.4.0",
 		"typescript": "^5.0.0",
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
-		"@sveltejs/package": "^2.3.11",
 		"@tailwindcss/vite": "^4.1.4"
-	},
-	"peerDependencies": {
-		"svelte": "^5.0.0"
-	},
-	"exports": {
-		".": {
-			"types": "./dist/index.d.ts",
-			"svelte": "./dist/index.js"
-		}
-	},
-	"svelte": "./dist/index.js",
-	"types": "./dist/index.d.ts"
+	}
 }

@@ -1,5 +1,11 @@
 # Neobrutalism Components Svelte
+![NPM Downloads](https://img.shields.io/npm/dw/neobrutalism-components-svelte)
+![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/neobrutalism-components-svelte)
+![NPM Version](https://img.shields.io/npm/v/neobrutalism-components-svelte)
+
 ## Not affiliated with [ekmas](https://github.com/ekmas)
+
+[NPM Link](https://www.npmjs.com/package/neobrutalism-components-svelte)
 
 ## Introduction
 This is a port of [ekmas/neobrutalism-components](https://github.com/ekmas/neobrutalism-components) to Svelte

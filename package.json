@@ -1,7 +1,7 @@
 {
 	"name": "neobrutalism-components-svelte",
 	"private": false,
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -103,5 +103,14 @@
 		},
 		"./package.json": "./package.json",
 		"./style.css": "./dist/style.css"
-	}
+	},
+	"keywords": [
+		"ui",
+		"components",
+		"svelte",
+		"neobrutalism",
+		"library",
+		"ui library",
+		"sveltekit"
+	]
 }

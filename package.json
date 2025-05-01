@@ -1,7 +1,7 @@
 {
 	"name": "neobrutalism-components-svelte",
 	"private": false,
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -14,18 +14,19 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
 		"@sveltejs/kit": "^2.16.0",
+		"@sveltejs/package": "^2.3.11",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"@tailwindcss/vite": "^4.1.4",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
-		"@sveltejs/package": "^2.3.11",
-		"@tailwindcss/vite": "^4.1.4",
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
-		"svelte": "^5.0.0",
+		"@lucide/svelte": "^0.503.0",
 		"cva": "npm:class-variance-authority@^0.7.1",
-		"tailwindcss": "^4.1.4",
-		"tailwind-merge": "^3.2.0"
+		"svelte": "^5.0.0",
+		"tailwind-merge": "^3.2.0",
+		"tailwindcss": "^4.1.4"
 	},
 	"peerDependencies": {
 		"svelte": "^5.0.0"
@@ -52,6 +53,18 @@
 			"types": "./dist/components/alert/AlertTitle.svelte.d.ts",
 			"svelte": "./dist/components/alert/AlertTitle.svelte"
 		},
+		"./Avatar.svelte": {
+			"types": "./dist/components/avatar/Avatar.svelte.d.ts",
+			"svelte": "./dist/components/avatar/Avatar.svelte"
+		},
+		"./AvatarFallback.svelte": {
+			"types": "./dist/components/avatar/AvatarFallback.svelte.d.ts",
+			"svelte": "./dist/components/avatar/AvatarFallback.svelte"
+		},
+		"./AvatarImage.svelte": {
+			"types": "./dist/components/avatar/AvatarImage.svelte.d.ts",
+			"svelte": "./dist/components/avatar/AvatarImage.svelte"
+		},
 		"./Badge.svelte": {
 			"types": "./dist/components/badge/Badge.svelte.d.ts",
 			"svelte": "./dist/components/badge/Badge.svelte"
@@ -59,6 +72,34 @@
 		"./Button.svelte": {
 			"types": "./dist/components/button/Button.svelte.d.ts",
 			"svelte": "./dist/components/button/Button.svelte"
+		},
+		"./Breadcrumb.svelte": {
+			"types": "./dist/components/breadcrumb/Breadcrumb.svelte.d.ts",
+			"svelte": "./dist/components/breadcrumb/Breadcrumb.svelte"
+		},
+		"./BreadcrumbEllipsis.svelte": {
+			"types": "./dist/components/breadcrumb/BreadcrumbEllipsis.svelte.d.ts",
+			"svelte": "./dist/components/breadcrumb/BreadcrumbEllipsis.svelte"
+		},
+		"./BreadcrumbItem.svelte": {
+			"types": "./dist/components/breadcrumb/BreadcrumbItem.svelte.d.ts",
+			"svelte": "./dist/components/breadcrumb/BreadcrumbItem.svelte"
+		},
+		"./BreadcrumbLink.svelte": {
+			"types": "./dist/components/breadcrumb/BreadcrumbLink.svelte.d.ts",
+			"svelte": "./dist/components/breadcrumb/BreadcrumbLink.svelte"
+		},
+		"./BreadcrumbList.svelte": {
+			"types": "./dist/components/breadcrumb/BreadcrumbList.svelte.d.ts",
+			"svelte": "./dist/components/breadcrumb/BreadcrumbList.svelte"
+		},
+		"./BreadcrumbPage.svelte": {
+			"types": "./dist/components/breadcrumb/BreadcrumbPage.svelte.d.ts",
+			"svelte": "./dist/components/breadcrumb/BreadcrumbPage.svelte"
+		},
+		"./BreadcrumbSeparator.svelte": {
+			"types": "./dist/components/breadcrumb/BreadcrumbSeparator.svelte.d.ts",
+			"svelte": "./dist/components/breadcrumb/BreadcrumbSeparator.svelte"
 		},
 		"./package.json": "./package.json",
 		"./style.css": "./dist/style.css"

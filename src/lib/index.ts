@@ -1,4 +1,7 @@
 //@ts-nocheck
+// Custom styles for components
+import "./style.css";
+
 // Alert
 export { default as Alert } from "./components/alert/Alert.svelte";
 export { default as AlertDescription} from "./components/alert/AlertDescription.svelte";

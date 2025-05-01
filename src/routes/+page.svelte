@@ -1,6 +1,6 @@
 <script>
-    import Button from "$lib/components/Button.svelte";
-    import Badge from "$lib/components/Badge.svelte";
+    import Button from "$lib/components/button/Button.svelte";
+    import Badge from "$lib/components/badge/Badge.svelte";
     import Alert from "$lib/components/alert/Alert.svelte";
     import AlertDescription from "$lib/components/alert/AlertDescription.svelte";
     import AlertTitle from "$lib/components/alert/AlertTitle.svelte";

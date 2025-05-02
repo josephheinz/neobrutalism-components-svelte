@@ -4,8 +4,6 @@
   export let className = "";
 </script>
 
-<nav
-    class={cn(className)}
->
-    <slot/>
+<nav class={cn(className)} {...$$restProps}>
+  <slot />
 </nav>

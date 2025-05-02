@@ -4,12 +4,12 @@
   export let className = "";
 </script>
 
-<div
+<span
   class={cn(
-    "flex size-full items-center justify-center rounded-full bg-secondary-background text-foreground font-base",
+    "text-sm font-heading leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
     className
   )}
   {...$$restProps}
 >
   <slot />
-</div>
+</span>

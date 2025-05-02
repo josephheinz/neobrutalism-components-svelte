@@ -1,7 +1,7 @@
 {
 	"name": "neobrutalism-components-svelte",
 	"private": false,
-	"version": "0.3.2",
+	"version": "0.4.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -69,10 +69,6 @@
 			"types": "./dist/components/badge/Badge.svelte.d.ts",
 			"svelte": "./dist/components/badge/Badge.svelte"
 		},
-		"./Button.svelte": {
-			"types": "./dist/components/button/Button.svelte.d.ts",
-			"svelte": "./dist/components/button/Button.svelte"
-		},
 		"./Breadcrumb.svelte": {
 			"types": "./dist/components/breadcrumb/Breadcrumb.svelte.d.ts",
 			"svelte": "./dist/components/breadcrumb/Breadcrumb.svelte"
@@ -100,6 +96,46 @@
 		"./BreadcrumbSeparator.svelte": {
 			"types": "./dist/components/breadcrumb/BreadcrumbSeparator.svelte.d.ts",
 			"svelte": "./dist/components/breadcrumb/BreadcrumbSeparator.svelte"
+		},
+		"./Button.svelte": {
+			"types": "./dist/components/button/Button.svelte.d.ts",
+			"svelte": "./dist/components/button/Button.svelte"
+		},
+		"./Card.svelte": {
+			"types": "./dist/components/card/Card.svelte.d.ts",
+			"svelte": "./dist/components/card/Card.svelte"
+		},
+		"./CardAction.svelte": {
+			"types": "./dist/components/card/CardAction.svelte.d.ts",
+			"svelte": "./dist/components/card/CardAction.svelte"
+		},
+		"./CardContent.svelte": {
+			"types": "./dist/components/card/CardContent.svelte.d.ts",
+			"svelte": "./dist/components/card/CardContent.svelte"
+		},
+		"./CardDescription.svelte": {
+			"types": "./dist/components/card/CardDescription.svelte.d.ts",
+			"svelte": "./dist/components/card/CardDescription.svelte"
+		},
+		"./CardFooter.svelte": {
+			"types": "./dist/components/card/CardFooter.svelte.d.ts",
+			"svelte": "./dist/components/card/CardFooter.svelte"
+		},
+		"./CardHeader.svelte": {
+			"types": "./dist/components/card/CardHeader.svelte.d.ts",
+			"svelte": "./dist/components/card/CardHeader.svelte"
+		},
+		"./CardTitle.svelte": {
+			"types": "./dist/components/card/CardTitle.svelte.d.ts",
+			"svelte": "./dist/components/card/CardTitle.svelte"
+		},
+		"./Input.svelte": {
+			"types": "./dist/components/input/Input.svelte.d.ts",
+			"svelte": "./dist/components/input/Input.svelte"
+		},
+		"./Label.svelte": {
+			"types": "./dist/components/label/Label.svelte.d.ts",
+			"svelte": "./dist/components/label/Label.svelte"
 		},
 		"./package.json": "./package.json",
 		"./style.css": "./dist/style.css"

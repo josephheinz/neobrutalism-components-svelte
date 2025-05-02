@@ -21,8 +21,6 @@
   export let className = "";
 </script>
 
-<div
-    class={cn(badgeVariants({variant}), className)}
->
-    <slot/>
+<div class={cn(badgeVariants({ variant }), className)} {...$$restProps}>
+  <slot />
 </div>

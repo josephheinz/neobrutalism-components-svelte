@@ -5,9 +5,10 @@
   export let className = "";
 </script>
 
-<li 
-    class={cn("[&>svg]:size-3.5", className)}
-    aria-hidden="true"
+<li
+  class={cn("[&>svg]:size-3.5", className)}
+  aria-hidden="true"
+  {...$$restProps}
 >
-  <ChevronRight/>
+  <ChevronRight />
 </li>

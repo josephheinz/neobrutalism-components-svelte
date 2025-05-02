@@ -6,7 +6,7 @@
 
 <div
   class={cn(
-    "flex size-full items-center justify-center rounded-full bg-secondary-background text-foreground font-base",
+    "col-start-2 row-span-2 row-start-1 self-start justify-self-end",
     className
   )}
   {...$$restProps}

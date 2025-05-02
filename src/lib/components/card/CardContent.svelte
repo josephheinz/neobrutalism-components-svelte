@@ -4,6 +4,6 @@
   export let className = "";
 </script>
 
-<li class={cn("inline-flex items-center gap-1.5", className)} {...$$restProps}>
+<div class={cn("px-6", className)} {...$$restProps}>
   <slot />
-</li>
+</div>

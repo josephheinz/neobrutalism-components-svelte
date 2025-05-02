@@ -21,8 +21,6 @@
   export let className = "";
 </script>
 
-<div
-    class={cn(alertVariants({variant}), className)}
->
-    <slot/>
+<div class={cn(alertVariants({ variant }), className)} {...$$restProps}>
+  <slot />
 </div>

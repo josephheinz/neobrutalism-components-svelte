@@ -29,15 +29,17 @@
     }
   );
 
-  export let variant: "default" | "noShadow" | "neutral" | "reverse" = "default";
+  export let variant: "default" | "noShadow" | "neutral" | "reverse" =
+    "default";
   export let size: "default" | "sm" | "lg" | "icon" = "default";
   export let disabled = false;
   export let className = "";
 </script>
 
 <button
-    class={cn(buttonVariants({ variant, size, className}))}
-    {disabled}
+  class={cn(buttonVariants({ variant, size, className }))}
+  {disabled}
+  {...$$restProps}
 >
-    <slot/>
+  <slot />
 </button>

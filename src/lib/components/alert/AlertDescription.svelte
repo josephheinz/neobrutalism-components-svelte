@@ -10,6 +10,7 @@
     "col-start-2 grid justify-items-start gap-1 text-sm font-base [&_p]:leading-relaxed",
     className
   )}
+  {...$$restProps}
 >
   <slot />
 </div>

@@ -6,4 +6,9 @@
   export let alt = "";
 </script>
 
-<img {src} {alt} class={cn("aspect-square size-full absolute", className)} />
+<img
+  {src}
+  {alt}
+  class={cn("aspect-square size-full absolute", className)}
+  {...$$restProps}
+/>

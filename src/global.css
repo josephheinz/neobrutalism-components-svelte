@@ -12,15 +12,19 @@
     --heading-font-weight: 700;
     --base-font-weight: 500;
 
-    --background: oklch(93.46% 0.0304 254.32);
-    --secondary-background: oklch(100% 0 0);
-    --foreground: oklch(0% 0 0);
-    --main-foreground: oklch(0% 0 0);
-
+    /*Change this to change the main color and backgrounds*/
+    /*Keep it oklch unless you change the backgrounds too*/
+    /*oklch is just better*/
     --main: oklch(67.47% 0.1725 259.61);
     --border: oklch(0% 0 0);
     --ring: oklch(0% 0 0);
     --overlay: oklch(0% 0 0 / 0.8);
+
+    --background: oklch(from var(--main) 93.46% c h);
+    --secondary-background: oklch(100% 0 0);
+    --foreground: oklch(0% 0 0);
+    --main-foreground: oklch(0% 0 0);
+
 
     --shadow: var(--box-shadow-x) var(--box-shadow-y) 0px 0px var(--border);
 
@@ -33,7 +37,7 @@
 }
 
 .dark {
-    --background: oklch(29.12% 0.0633 270.86);
+    --background: oklch(from var(--main) 29.12% c h);
     --secondary-background: oklch(23.93% 0 0);
     --foreground: oklch(92.49% 0 0);
     --main-foreground: oklch(0% 0 0);

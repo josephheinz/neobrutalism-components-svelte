@@ -4,10 +4,11 @@
   export let className = "";
 </script>
 
-<span 
-    class={cn(className)}
-    aria-disabled="true"
-    aria-current="page"
+<span
+  class={cn(className)}
+  aria-disabled="true"
+  aria-current="page"
+  {...$$restProps}
 >
   <slot />
 </span>

@@ -15,12 +15,12 @@
     /*Change this to change the main color and backgrounds*/
     /*Keep it oklch unless you change the backgrounds too*/
     /*oklch is just better*/
-    --main: oklch(67.47% 0.1725 259.61);
+    --main: oklch(0.84 0.1724 84.08);
     --border: oklch(0% 0 0);
     --ring: oklch(0% 0 0);
     --overlay: oklch(0% 0 0 / 0.8);
 
-    --background: oklch(from var(--main) 93.46% c h);
+    --background: oklch(from var(--main) 93.46% calc(c - 0.085) h);
     --secondary-background: oklch(100% 0 0);
     --foreground: oklch(0% 0 0);
     --main-foreground: oklch(0% 0 0);
@@ -37,7 +37,7 @@
 }
 
 .dark {
-    --background: oklch(from var(--main) 29.12% c h);
+    --background: oklch(from var(--main) 29.12% 0.03 h);
     --secondary-background: oklch(23.93% 0 0);
     --foreground: oklch(92.49% 0 0);
     --main-foreground: oklch(0% 0 0);
@@ -104,6 +104,14 @@
             transform: translateX(0%);
         }
     }
+}
+
+html body {
+    background:var(--background);
+}
+
+html.dark body {
+    background: var(--background);
 }
 
 body,
